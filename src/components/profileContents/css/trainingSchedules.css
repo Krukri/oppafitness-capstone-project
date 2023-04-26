@@ -1,0 +1,87 @@
+:root {
+    --cyan-900: #000103;
+    --cyan-800: #061528;
+    --cyan-700: #11334d;
+    --cyan-600: #215971;
+    --cyan-500: #378696;
+    --cyan-400: #51b7ba;
+    --cyan-300: #71dfd4;
+    --white: #fdffff;
+    --contrast: #ffb703;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+body,
+html {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.headAndShoulders {
+    margin: auto;
+    color: aqua;
+}
+
+.training_schedule_header i {
+    /* border-bottom: 2px solid white; */
+    height: 6em;
+    width: 100%;
+}
+
+.training_schedule_header h2 i {
+    text-transform: uppercase;
+    margin: 1em auto;
+    font-weight: bold;
+    color: var(--cyan-400);
+    font-size: 2.25rem;
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+.king_baby {
+    color: var(--contrast);
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+.training_of_the_day {
+    margin: 1em auto;
+    width: 100%;
+    height: 30em;
+}
+
+#dayOfTheWeek,
+#dayOfTheWeek span {
+    font-size: 2.25rem;
+    text-transform: uppercase;
+    color: var(--cyan-400);
+    text-align: start;
+
+}
+
+#dayOfTheWeek span {
+    font-size: 2.25rem;
+    text-transform: uppercase;
+    color: var(--cyan-400);
+    text-align: start;
+    font-weight: bold;
+
+}
+
+.training_day {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3em auto;
+    width: 75%;
+}
+
+.training_day_header {
+    margin-left: 1em;
+
+}

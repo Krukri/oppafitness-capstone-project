@@ -1,0 +1,106 @@
+:root {
+    --cyan-900: #000103;
+    --cyan-800: #061528;
+    --cyan-700: #11334d;
+    --cyan-600: #215971;
+    --cyan-500: #378696;
+    --cyan-400: #51b7ba;
+    --cyan-300: #71dfd4;
+    --white: #fdffff;
+    --contrast: #ffb703;
+}
+
+
+body,
+html {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.profileHeader {
+    margin: 3em auto;
+    width: 100%;
+    text-align: center;
+}
+
+
+.profileBackground {
+    background-image: url('../images/profilebg.svg');
+    width: 75%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 20px;
+    background-position: center;
+
+}
+
+.profile_section {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 85vh;
+    width: 75%;
+    margin: 6em auto;
+    border: 2px solid white !important;
+    border-radius: 10px;
+    backdrop-filter: blur(6px);
+}
+
+.userProfile_container {
+    display: flex;
+    width: 100%;
+}
+
+.left_panel {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2em .25em;
+    border-right: 4px solid white;
+    flex-wrap: nowrap;
+}
+
+.right_panel {
+    height: 100%;
+    padding: 1em;
+}
+
+.tab_items {
+    position: relative;
+    font-size: 1.25rem;
+    margin: 3em auto;
+    border-radius: 6px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+}
+
+.tab_items span {
+    margin-left: 2.5em;
+    color: rgb(161, 156, 140);
+}
+
+.tab_items span:hover {
+    color: var(--contrast)
+}
+
+.svg_icon {
+    height: 1.5em;
+    width: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: .8em;
+}

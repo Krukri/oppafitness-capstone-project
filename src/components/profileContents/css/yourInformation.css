@@ -1,0 +1,249 @@
+:root {
+    --cyan-900: #000103;
+    --cyan-800: #061528;
+    --cyan-700: #11334d;
+    --cyan-600: #215971;
+    --cyan-500: #378696;
+    --cyan-400: #51b7ba;
+    --cyan-300: #71dfd4;
+    --white: #fdffff;
+    --contrast: #ffb703;
+}
+
+
+body,
+html {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.personal_info {
+    margin: 1em auto;
+    color: var(--cyan-400);
+    text-align: center;
+    width: 85%;
+    border-radius: 20px;
+    filter: drop-shadow(4px 3px 3px #18191aad);
+    text-shadow: 3px 1px 15px #000000;
+}
+
+.bmi_container {
+    display: flex;
+    margin: 4em 0;
+
+}
+
+.bmi_information {
+    text-align: center;
+    padding: -3em;
+    min-width: 33.333%;
+    min-height: 12.5em;
+}
+
+.bmi_information h2 {
+    text-transform: uppercase;
+}
+
+.weight_section,
+.bmi_section,
+.bmi_Category {
+    min-width: 30%;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    width: 60%;
+    margin: .75em auto;
+}
+
+p {
+    color: var(--cyan-300);
+}
+
+
+.point_container {
+    position: relative;
+    width: 75%;
+    height: 100;
+    margin: auto;
+}
+
+#points {
+    position: absolute;
+    list-style: none;
+    border: .25em solid var(--cyan-300);
+    border-radius: 99999px;
+}
+
+.point1 {
+    top: 55%;
+    left: 13.4%;
+}
+
+.point2 {
+    top: 60%;
+    left: 22.4%;
+}
+
+.point3 {
+    top: 60%;
+    left: 32.4%;
+}
+
+.point4 {
+    top: 50%;
+    left: 42.4%;
+}
+
+.point5 {
+    top: 55%;
+    left: 52%;
+}
+
+.point6 {
+    top: 60%;
+    left: 61%;
+}
+
+.point7 {
+    top: 70%;
+    left: 71%;
+}
+
+.point8 {
+    top: 77%;
+    left: 80%;
+}
+
+.x_axis {
+    width: 100%;
+    height: 3em;
+    margin: auto;
+}
+
+.x_axis_container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+
+}
+
+.x_axis {
+    border: 1px soli white;
+}
+
+.x_axis_wrapper {
+    width: 100%;
+    border-left: 3px solid var(--contrast);
+    border-bottom: 3px solid var(--contrast);
+    margin: auto;
+}
+
+.x_axis_label {
+    position: relative;
+    width: 5em;
+    list-style: none;
+    text-align: center;
+}
+
+.x_axis_label li {
+    position: absolute;
+    color: var(--contrast);
+}
+
+.label_1 {
+    top: 14%;
+
+}
+
+.label_2 {
+    top: 34%;
+
+}
+
+.label_3 {
+    top: 54%;
+
+}
+
+.label_4 {
+    top: 74%;
+
+}
+
+.label_5 {
+    top: 94%;
+
+}
+
+
+.y_axis_label {
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+
+.y_axis_label li {
+    list-style: none;
+    position: absolute;
+    margin-top: .5em;
+}
+
+.week1 {
+    left: 10%;
+}
+
+.week2 {
+    left: 20%;
+}
+
+.week3 {
+    left: 30%;
+}
+
+.week4 {
+    left: 40%;
+}
+
+.week5 {
+    left: 50%;
+}
+
+.week6 {
+    left: 60%;
+}
+
+.week7 {
+    left: 70%;
+}
+
+.week8 {
+    left: 80%;
+}
+
+.week9 {
+    left: 90%;
+}
+
+.week10 {
+    left: 100%;
+}
+
+.numberOfWeeks {
+    padding-top: 2.25em;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+
+}
+
+.numberOfWeeks p {
+    color: white !important;
+
+}

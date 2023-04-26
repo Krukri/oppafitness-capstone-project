@@ -1,0 +1,50 @@
+:root {
+    --cyan-900: #000103;
+    --cyan-800: #061528;
+    --cyan-700: #11334d;
+    --cyan-600: #215971;
+    --cyan-500: #378696;
+    --cyan-400: #51b7ba;
+    --cyan-300: #71dfd4;
+    --white: #fdffff;
+    --contrast: #ffb703;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.navBar_Section {
+    height: 5em;
+    display: flex;
+    justify-content: space-around;
+    width: 65%;
+    margin: 2em auto;
+}
+
+
+.navBar_Logo {
+    width: 40vw;
+    display: flex;
+    align-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.navBar_Logo img {
+    height: 6rem;
+}
+
+.dropdown_menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+@media (max-width: 768px) {}

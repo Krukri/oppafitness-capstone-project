@@ -1,0 +1,116 @@
+:root {
+    --cyan-900: #000103;
+    --cyan-800: #061528;
+    --cyan-700: #11334d;
+    --cyan-600: #215971;
+    --cyan-500: #378696;
+    --cyan-400: #51b7ba;
+    --cyan-300: #71dfd4;
+    --white: #fdffff;
+    --contrast: #ffb703;
+}
+
+
+body,
+html {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.program_of_the_day {
+    display: block;
+    padding: .2em;
+}
+
+
+.program_title {
+    border-bottom: 3px dotted var(--cyan-700);
+    border-top: 3px dotted var(--cyan-700);
+}
+
+.program_execution {
+    padding: .3em;
+    text-align: start;
+}
+
+.warmUp {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: .4em auto;
+    padding: .3rem;
+}
+
+.program_list {
+    list-style: none;
+}
+
+.master_workout {
+    display: flex;
+}
+
+#program_item {
+    margin: 1em auto;
+}
+
+.main_workout {
+    border-left: 3px dotted var(--cyan-700);
+    padding: 1em;
+}
+
+.workoutSet {
+    height: 100%;
+    padding: .5em;
+}
+
+.workoutSet_container {
+    display: flex;
+    height: 90%;
+
+}
+
+
+
+.play_btn {
+    background-color: red;
+    border: 3px solid red;
+    width: 3em;
+    height: 2em;
+    border-radius: 8px;
+    transition: 400ms;
+}
+
+.play_btn:hover {
+    transform: translate(1.2);
+}
+
+.play_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.play_button {
+    border: none;
+    background: none;
+}
+
+.clickIt {
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+
+.clickIt {
+    color: white;
+}
+
+.workSet_container {
+    margin-bottom: 4em;
+    height: 13em;
+}
