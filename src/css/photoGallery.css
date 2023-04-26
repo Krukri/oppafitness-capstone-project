@@ -48,8 +48,17 @@ img {
 }
 
 .gallery1 {
-    padding-top: 2em !important;
+    padding-top: 2.2em !important;
+    border-radius: 30px 0 0 0;
+}
 
+.gallery1, .gallery4 {
+    border: 6px solid var(--cyan-600);
+
+}
+
+.gallery4{
+    border-radius: 0 0 30px 0;
 }
 
 .gallery1,
