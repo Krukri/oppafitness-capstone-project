@@ -16,8 +16,9 @@
     padding: 0px;
     font-family: 'Rajdhani', sans-serif;
 }
+
 .gallery_container {
-    height: 50vw;
+    height: 55vw;
     width: 65%;
     margin: 8em auto;
     display: flex;
@@ -46,6 +47,18 @@ img {
     flex-wrap: wrap;
 }
 
+.gallery1 {
+    padding-top: 2em !important;
+
+}
+
+.gallery1,
+.gallery2,
+.gallery3,
+.gallery4 {
+    padding: 1%;
+}
+
 
 .gallery_divider {
     width: 50%;
@@ -64,12 +77,12 @@ img {
 
     .gallery_on_mobile {
         width: 75%;
-        display: flex;
+        display: none;
         flex-wrap: wrap;
         margin: auto;
     }
 
-    #photo{
+    #photo {
         width: 50%;
     }
 }

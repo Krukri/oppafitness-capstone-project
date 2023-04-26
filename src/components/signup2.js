@@ -58,7 +58,7 @@ const SignUpForm2 = () => {
             <form onSubmit={handleSubmit} className="formContainer">
               {/* this is for the username */}
               <label htmlFor="username" className="usernameForm">
-                <h4 class="mb-0 mt-3">Username</h4>
+                <h4 class="mb-0 mt-3 p-0 user_pass">Username</h4>
               </label>
               <input
                 class="mt-0 form_ctrl"
@@ -71,15 +71,14 @@ const SignUpForm2 = () => {
                 value={user}
                 required
                 className="form_ctrl"
-                style={{ color: "white", fontSize: "1rem", padding: "0 1em" }}
               />
 
               {/* this is for the password */}
               <label htmlFor="password" className="passwordForm">
-                <h4 class="mb-0 mt-3">Password</h4>
+                <h4 class="mb-0 mt-3 p-0 user_pass">Password</h4>
               </label>
               <input
-                class="mt-0 form_ctrl"
+                class="mt-0 form_ctrl pass_form"
                 placeholder="Password"
                 type="password"
                 id="password"
@@ -87,7 +86,6 @@ const SignUpForm2 = () => {
                 value={pwd}
                 required
                 className="form_ctrl"
-                style={{ color: "white", fontSize: "1rem", padding: "0 1em" }}
               />
               <div className="submitButtonContainer">
                 <button className="submitButton">Sign In</button>

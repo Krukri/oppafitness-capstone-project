@@ -1,6 +1,7 @@
 import "../css/home.css";
 import SignUpForm2 from "../components/signup2";
 import PhotoGallery from "../components/photo_gallery";
+import CarouselContainer from "../components/CarouselContainer";
 const HomePage = () => {
   return (
     <div id="home">
@@ -16,10 +17,14 @@ const HomePage = () => {
           </div>
           <div className="equipment_container">
             <div className="equipment_small">
-                <div className="photo_gallery_container">
-                  <PhotoGallery></PhotoGallery>
-                </div>
+              <div className="photo_gallery_container">
+                <PhotoGallery></PhotoGallery>
+              </div>
             </div>
+          </div>
+
+          <div className="carousel_container mb-3 ">
+            <CarouselContainer></CarouselContainer>
           </div>
 
           <div>
@@ -27,7 +32,6 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-
     </div>
   );
 };

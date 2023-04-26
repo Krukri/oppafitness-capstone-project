@@ -29,7 +29,7 @@ html {
 
 
 .text_space {
-    padding: 6em;
+    padding: 5%;
     width: 90%;
     height: 20em;
     display: flex;
@@ -43,13 +43,12 @@ html {
 }
 
 .text_space h2 {
-    height: 15vh;
     border-radius: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: var(--white);
-    padding: 2em;
+    padding: 5%;
     background: #21597128;
     text-shadow: 2px 2px var(--cyan-800);
     filter: drop-shadow(4px 3px 3px #18191aad);
@@ -57,20 +56,88 @@ html {
     font-weight: 600;
 }
 
-
+.carousel_container {
+    display: none;
+    margin: auto;
+    height: 45vw;
+    width: 55%;
+    text-align: center;
+    padding-top: 1em !important;
+}
 
 @media (max-width: 1100px) {
     .text_space h2 {
         font-size: 1.75em;
-        padding: .5em;
+        padding: 1em;
+    }
+
+    .text_space {
+        padding: 6em;
+        width: 90%;
+        height: 15em;
+
+    }
+
+    .carousel_container {
+        display: block;
     }
 
 }
 
-@media (max-width: 700px) {
+
+
+@media (max-width: 800px) {
     .text_space h2 {
         font-size: 1.5rem;
         padding: .5em;
     }
 
+    .text_space {
+        padding: 6em;
+        width: 90%;
+        height: 10em;
+
+    }
+}
+
+@media (max-width: 730px) {
+    .text_space h2 {
+        font-size: 1rem;
+        padding: .25em;
+    }
+
+    .text_space {
+        padding: 5.5em;
+        width: 90%;
+        height: 8em;
+
+    }
+}
+
+@media (max-width: 630px) {
+    .text_space h2 {
+        font-size: 1rem;
+        padding: 5px;
+    }
+
+    .text_space {
+        padding: 6em;
+        width: 90%;
+        height: 5em;
+
+    }
+}
+
+@media (max-width: 630px) {
+    .text_space h2 {
+        font-size: 1rem;
+        padding: 5px;
+    }
+
+    .text_space {
+        padding: 5em;
+        width: 95%;
+        height: 2em;
+
+    }
 }
