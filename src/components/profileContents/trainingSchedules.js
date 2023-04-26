@@ -19,14 +19,14 @@ const TrainingSchedules = () => {
     "Saturday",
   ];
 
-  // const day = weekDay[d.getDay()];
+  const day = weekDay[d.getDay()];
   // const day = "Monday";
   // const day = "Tuesday";
   // const day = "Wednesday";
   // const day = "Thursday";
   // const day = "Friday";
   // const day = "Saturday";
-  const day = "Sunday";
+  // const day = "Sunday";
 
   let program = day;
   let result;
