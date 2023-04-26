@@ -2,6 +2,7 @@ import "../css/home.css";
 import SignUpForm2 from "../components/signup2";
 import PhotoGallery from "../components/photo_gallery";
 import CarouselContainer from "../components/CarouselContainer";
+import ClickMe from "../components/clickMe";
 const HomePage = () => {
   return (
     <div id="home">
@@ -29,6 +30,10 @@ const HomePage = () => {
 
           <div>
             <SignUpForm2></SignUpForm2>
+          </div>
+
+          <div className="chat_clickMe">
+            <ClickMe></ClickMe>
           </div>
         </div>
       </div>

@@ -10,13 +10,18 @@
     --contrast: #ffb703;
 }
 
+
+body,
+html {
+    font-family: 'Rajdhani', sans-serif;
+}
+
 * {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
     font-family: 'Rajdhani', sans-serif;
 }
-
 
 .profile_item{
     text-decoration: none;

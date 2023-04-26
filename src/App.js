@@ -5,6 +5,7 @@ import HomePage from "./pages/Home";
 import LocationPage from "./pages/Location";
 import RegistrationPage from "./pages/RegistrationPage";
 import ProfilePage from "./pages/Profile";
+import React from "react";
 
 function App() {
   return (
