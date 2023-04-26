@@ -31,7 +31,7 @@ const SignUpForm2 = () => {
       <>
         {success ? (
           <section className="after_login">
-            <h1>You are logged in!</h1>
+            <h2>You are logged in!</h2>
             <br />
             <p>
               <Link to="/ProfilePage" className="navLink_Item" id="go_to">
@@ -49,18 +49,19 @@ const SignUpForm2 = () => {
               {errMsg}
             </p>
             <div className="sign_up_form">
-              <h1 className="sign_up_message">
+              <h3 className="sign_up_message">
                 <span style={{ color: "yellow" }}>Sign in</span> now and start
                 tracking progress
-              </h1>
+              </h3>
             </div>
 
             <form onSubmit={handleSubmit} className="formContainer">
               {/* this is for the username */}
               <label htmlFor="username" className="usernameForm">
-                <h2>Username</h2>
+                <h4 class="mb-0 mt-3">Username</h4>
               </label>
               <input
+                class="mt-0 form_ctrl"
                 placeholder="Username"
                 type="text"
                 id="username"
@@ -70,14 +71,15 @@ const SignUpForm2 = () => {
                 value={user}
                 required
                 className="form_ctrl"
-                style={{ color: "white", fontSize: "1rem" }}
+                style={{ color: "white", fontSize: "1rem", padding: "0 1em" }}
               />
 
               {/* this is for the password */}
               <label htmlFor="password" className="passwordForm">
-                <h2>Password</h2>
+                <h4 class="mb-0 mt-3">Password</h4>
               </label>
               <input
+                class="mt-0 form_ctrl"
                 placeholder="Password"
                 type="password"
                 id="password"
@@ -85,7 +87,7 @@ const SignUpForm2 = () => {
                 value={pwd}
                 required
                 className="form_ctrl"
-                style={{ color: "white", fontSize: "1rem" }}
+                style={{ color: "white", fontSize: "1rem", padding: "0 1em" }}
               />
               <div className="submitButtonContainer">
                 <button className="submitButton">Sign In</button>

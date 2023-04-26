@@ -20,15 +20,14 @@
 }
 
 .logInForm {
-    width: 75%;
-    margin: auto;
+    width: 300px;
+    margin: 3em auto;
     height: inherit;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 1rem;
     align-items: center;
-    padding: 5rem;
+    padding: 1em!important;
     text-align: center;
 }
 
@@ -47,10 +46,14 @@
     align-items: center;
     border-radius: 30px;
     border: 3px solid rgba(255, 255, 0, 0.534);
-    margin-bottom: 5em;
+    /* margin-bottom: 5em; */
 }
 
-
+.usernameForm {
+    /* border: 1px solid white; */
+    text-align: center;
+    margin: 0 !important;
+}
 
 .signInForm {
     position: relative;
@@ -83,22 +86,24 @@
     margin: auto;
 }
 
-.after_login h1,
+.after_login h2,
 .after_login p {
     margin: .5em auto;
 }
 
 .form_ctrl {
-    width: 30vw;
+    width: 30em;
     height: 4rem;
     border-radius: 20px;
-    padding: 1rem;
+    padding: .5rem;
     background-color: var(--cyan-600);
+    color: white;
 }
 
 .formContainer {
     display: flex;
     flex-direction: column;
+    margin: 1em 0;
 }
 
 .submitButtonContainer {
@@ -108,7 +113,7 @@
 }
 
 .submitButton {
-    width: 10vw;
+    min-width: 10em;
     height: 2.5rem;
     border: 3px solid var(--cyan-500);
     border-radius: 20px;
@@ -117,6 +122,7 @@
     font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
+    margin-top: 1em;
 }
 
 .new_account {
@@ -127,3 +133,5 @@
     align-items: center;
     gap: 10px;
 }
+
+@media (max-width: 1000px) {}
