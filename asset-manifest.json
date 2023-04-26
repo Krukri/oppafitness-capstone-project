@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/oppafitness-capstone-project/static/css/main.89a2bd9b.css",
+    "main.js": "/oppafitness-capstone-project/static/js/main.a7916251.js",
+    "static/js/787.bab4e5ec.chunk.js": "/oppafitness-capstone-project/static/js/787.bab4e5ec.chunk.js",
+    "static/media/img2.jpg": "/oppafitness-capstone-project/static/media/img2.3f59f4d5cfecaae081fb.jpg",
+    "static/media/img7.jpg": "/oppafitness-capstone-project/static/media/img7.4b27afb0f73f7f77c436.jpg",
+    "static/media/img1.jpg": "/oppafitness-capstone-project/static/media/img1.3da66e0e15192a2e169f.jpg",
+    "static/media/img3.jpg": "/oppafitness-capstone-project/static/media/img3.ede8356f4a7942d10a33.jpg",
+    "static/media/img6.jpg": "/oppafitness-capstone-project/static/media/img6.51aa4f3819c5455aa55c.jpg",
+    "static/media/img5.jpg": "/oppafitness-capstone-project/static/media/img5.bdc8a1c2093320095053.jpg",
+    "static/media/img8.jpg": "/oppafitness-capstone-project/static/media/img8.80caec91f563ba93564f.jpg",
+    "static/media/img4.jpg": "/oppafitness-capstone-project/static/media/img4.2407129f816879002586.jpg",
+    "static/media/doks.png": "/oppafitness-capstone-project/static/media/doks.48868efd9423fe2a44f2.png",
+    "static/media/OppaFitnessGym.png": "/oppafitness-capstone-project/static/media/OppaFitnessGym.4bba91cb2ad615824518.png",
+    "static/media/hero_bg.svg": "/oppafitness-capstone-project/static/media/hero_bg.7045fda056c3da35ca50.svg",
+    "static/media/extra_bg.svg": "/oppafitness-capstone-project/static/media/extra_bg.cbf160eeddc3ade62a44.svg",
+    "static/media/profilebg.svg": "/oppafitness-capstone-project/static/media/profilebg.c3ecbbc8494c5568ba4b.svg",
+    "static/media/footer.svg": "/oppafitness-capstone-project/static/media/footer.54bf17cae6c0481b1e3e.svg",
+    "index.html": "/oppafitness-capstone-project/index.html",
+    "main.89a2bd9b.css.map": "/oppafitness-capstone-project/static/css/main.89a2bd9b.css.map",
+    "main.a7916251.js.map": "/oppafitness-capstone-project/static/js/main.a7916251.js.map",
+    "787.bab4e5ec.chunk.js.map": "/oppafitness-capstone-project/static/js/787.bab4e5ec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89a2bd9b.css",
+    "static/js/main.a7916251.js"
+  ]
+}
