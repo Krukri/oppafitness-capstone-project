@@ -18,7 +18,7 @@ const PhotoGallery = () => {
         </div>
         <div className="gallery2" id="sides">
           <div className="gallery_divider">
-            <img src={image1} alt="image2" id="photo" />
+            <img src={image1} alt="image2" id="photo" /> 
           </div>
           <div className="gallery_divider">
             <img src={image3} alt="image2" id="photo" />

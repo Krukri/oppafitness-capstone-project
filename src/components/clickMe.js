@@ -26,21 +26,23 @@ const ClickMe = (props) => {
           <Modal.Title className="help">How can we help you?</Modal.Title>
         </Modal.Header>
         <textarea
+          type="text"
+          placeholder="Send us a message..."
           name="chat_with_us"
           id="chat_with_us"
           cols="30"
           rows="10"
           className="chat_with_us_textarea"
         ></textarea>
-        <Modal.Footer className="chat_container_bottom border border-none ">
-          <Button variant="danger" onClick={handleClose}>
+        <Modal.Footer className="chat_container_bottom border border-none">
+          <Button className="btn btn-danger btn-sm" onClick={handleClose}>
             Cancel
           </Button>
           <Button
-            variant="success"
             type="submit"
             value="submit"
             onClick={handleClose}
+            className="btn btn-sm btn-success"
           >
             Send
           </Button>

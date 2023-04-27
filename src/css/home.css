@@ -59,8 +59,8 @@ html {
 .carousel_container {
     display: none;
     margin: auto;
-    height: 45vw;
-    width: 55%;
+    height: 65vw;
+    width: 75%;
     text-align: center;
     padding-top: 1em !important;
 }
@@ -89,6 +89,7 @@ html {
         display: block;
     }
 
+
 }
 
 
@@ -100,7 +101,7 @@ html {
     }
 
     .text_space {
-        padding: 6em;
+        padding: 5em;
         width: 90%;
         height: 10em;
 
@@ -109,28 +110,14 @@ html {
 
 @media (max-width: 730px) {
     .text_space h2 {
-        font-size: 1rem;
+        font-size: 1.5rem;
         padding: .25em;
     }
 
     .text_space {
-        padding: 5.5em;
+        padding: 4.5em;
         width: 90%;
         height: 8em;
-
-    }
-}
-
-@media (max-width: 630px) {
-    .text_space h2 {
-        font-size: 1rem;
-        padding: 5px;
-    }
-
-    .text_space {
-        padding: 6em;
-        width: 90%;
-        height: 5em;
 
     }
 }
@@ -145,6 +132,44 @@ html {
         padding: 5em;
         width: 95%;
         height: 2em;
+
+    }
+
+    .text_space h2 {
+        font-size: 1rem;
+        padding: .75em;
+    }
+
+    .text_space {
+        padding: 4em;
+        width: 90%;
+        height: 8em;
+
+    }
+}
+
+@media (max-width: 466px) {
+    .text_space h2 {
+        font-size: 1rem;
+        padding: 5px;
+    }
+
+    .text_space {
+        padding: 4.5em;
+        width: 95%;
+        height: 2em;
+
+    }
+
+    .text_space h2 {
+        font-size: .9rem;
+        padding: .5em;
+    }
+
+    .text_space {
+        padding: 4em;
+        width: 90%;
+        height: 7em;
 
     }
 }

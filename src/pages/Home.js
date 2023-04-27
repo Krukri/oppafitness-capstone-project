@@ -24,7 +24,7 @@ const HomePage = () => {
             </div>
           </div>
 
-          <div className="carousel_container mb-3 ">
+          <div className="carousel_container ">
             <CarouselContainer></CarouselContainer>
           </div>
 
