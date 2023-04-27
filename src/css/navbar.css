@@ -47,4 +47,11 @@
 }
 
 
-@media (max-width: 768px) {}
+@media (max-width: 400px) {
+    .navBar_Section {
+        display: block;
+        margin: 1.5em auto;
+        gap: 1em;
+
+    }
+}

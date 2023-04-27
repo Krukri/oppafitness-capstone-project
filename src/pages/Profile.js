@@ -23,7 +23,6 @@ const ProfilePage = () => {
 
   return (
     <div>
-      <div clssName="profileBackground">
         <div className="profile_section">
           <div className="userProfile_container">
             <MDBTabs className="col-2 left_panel">
@@ -165,7 +164,6 @@ const ProfilePage = () => {
             </MDBTabsContent>
           </div>
         </div>
-      </div>
     </div>
   );
 };

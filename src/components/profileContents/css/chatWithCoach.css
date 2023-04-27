@@ -70,6 +70,12 @@ html {
 
 .coach_name_status {
     padding: 1em;
+    padding: 1px;
+    margin: auto;
+    text-align: start;
+    align-items: start;
+
+
 }
 
 .coachStatus {
@@ -105,9 +111,10 @@ html {
     border: 1px solid white;
     margin: 1em auto;
     height: 30em;
-    width: 70em;
+    width: 100%;
     border-radius: 5px;
     overflow-y: scroll;
+    padding: 1em;
 
 }
 

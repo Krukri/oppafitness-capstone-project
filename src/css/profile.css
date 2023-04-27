@@ -23,34 +23,16 @@ html {
     font-family: 'Rajdhani', sans-serif;
 }
 
-.profileHeader {
-    margin: 3em auto;
-    width: 100%;
-    text-align: center;
-}
-
-
-.profileBackground {
-    background-image: url('../images/profilebg.svg');
-    width: 75%;
-    margin: auto;
-    background-repeat: no-repeat;
-    background-size: cover;
-    object-fit: cover;
-    border-radius: 20px;
-    background-position: center;
-
-}
 
 .profile_section {
     display: flex;
     flex-wrap: nowrap;
-    height: 85vh;
+    max-height: 100vh;
     width: 75%;
     margin: 6em auto;
     border: 2px solid white !important;
     border-radius: 10px;
-    backdrop-filter: blur(6px);
+    max-width: 90em;
 }
 
 .userProfile_container {
@@ -60,26 +42,33 @@ html {
 
 .left_panel {
     height: 100%;
+    min-width: 16.67%;
+    max-width: 16.67%;
     display: flex;
     flex-direction: column;
-    padding: 2em .25em;
+    padding: 1em;
     border-right: 4px solid white;
     flex-wrap: nowrap;
+    overflow: hidden;
+    border-bottom: none;
+
 }
 
 .right_panel {
     height: 100%;
     padding: 1em;
+    overflow: hidden;
 }
 
 .tab_items {
     position: relative;
-    font-size: 1.25rem;
+    font-size: 1rem;
     margin: 3em auto;
     border-radius: 6px;
     font-weight: bold;
     text-transform: uppercase;
     display: flex;
+    padding: 2em;
 }
 
 .tab_items span {
@@ -103,4 +92,14 @@ html {
     bottom: 50%;
     transform: translate(-50%, -50%);
     margin-left: .8em;
+}
+
+@media (max-width: 1000px) {
+    .left_panel span {
+        display: none;
+    }
+
+    .tab_items {
+        justify-content: center;
+    }
 }
